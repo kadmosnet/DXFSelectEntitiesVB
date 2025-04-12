@@ -92,8 +92,6 @@ Partial Class Form1
         DxfDocument1.UserTimerDays = 0
         Me.dxfReaderNETControl1.DXF = DxfDocument1
         Me.dxfReaderNETControl1.FileName = Nothing
-        Me.dxfReaderNETControl1.HighlightGrabPoints = False
-        Me.dxfReaderNETControl1.HighlightGrabPointsColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(163, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.dxfReaderNETControl1.HighlightMarkerColor2 = System.Drawing.Color.Magenta
         Me.dxfReaderNETControl1.HighlightNotContinuous = False
         Me.dxfReaderNETControl1.Location = New System.Drawing.Point(91, 34)

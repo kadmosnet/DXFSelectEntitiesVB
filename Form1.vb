@@ -26,6 +26,7 @@ Public Class Form1
 
         dxfReaderNETControl1.NewDrawing()
         dxfReaderNETControl1.CustomCursor = CustomCursorType.CrossHair
+        dxfReaderNETControl1.CursorSelectionSize = 8
         toolStripStatusLabel1.Text = ""
         dxfReaderNETControl1.Dock = DockStyle.Fill
     End Sub
